@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 2
+    },
+    "auditLog": "/home/loginemail122333/.codeoss/data/User/workspaceStorage/2a760e76-1/redhat.java/.57e1747dcb3ad2630bb992cf55a7fbebf55d23fa-audit.json",
+    "files": [
+        {
+            "date": 1709260041526,
+            "name": "/home/loginemail122333/.codeoss/data/User/workspaceStorage/2a760e76-1/redhat.java/client.log.2024-03-01",
+            "hash": "3dd163a09c714e0ee7c316b2b72e95c0"
+        }
+    ]
+}

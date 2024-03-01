@@ -1,0 +1,20 @@
+2024-03-01 02:27:21.615 [info] Log level: Info
+2024-03-01 02:27:21.615 [info] Validating found git in: "git"
+2024-03-01 02:27:21.615 [info] Using git "2.30.2" from "git"
+2024-03-01 02:27:21.615 [info] > git rev-parse --show-toplevel [765ms]
+2024-03-01 02:27:21.615 [info] > git rev-parse --git-dir --git-common-dir [28ms]
+2024-03-01 02:27:21.615 [info] Open repository: /home/loginemail122333/SOFE3980U-Lab3
+2024-03-01 02:27:21.618 [info] > git rev-parse --show-toplevel [6ms]
+2024-03-01 02:27:21.619 [info] > git config --get commit.template [16ms]
+2024-03-01 02:27:21.657 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2024-03-01 02:27:21.673 [info] > git rev-parse --show-toplevel [42ms]
+2024-03-01 02:27:21.795 [info] > git status -z -uall [124ms]
+2024-03-01 02:27:21.795 [info] > git rev-parse --show-toplevel [63ms]
+2024-03-01 02:27:21.895 [info] > git config --get commit.template [39ms]
+2024-03-01 02:27:21.895 [info] > git rev-parse --show-toplevel [50ms]
+2024-03-01 02:27:22.239 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [164ms]
+2024-03-01 02:27:22.263 [info] > git status -z -uall [12ms]
+2024-03-01 02:27:22.457 [info] > git show --textconv :MySQL/mysql-service.yaml [20ms]
+2024-03-01 02:27:22.458 [info] > git ls-files --stage -- /home/loginemail122333/SOFE3980U-Lab3/MySQL/mysql-service.yaml [7ms]
+2024-03-01 02:27:22.473 [info] > git cat-file -s 4f86581f19d6f96bcac2f60a18f594a6ac84656a [4ms]
+2024-03-01 02:27:22.646 [info] > git check-ignore -v -z --stdin [2ms]

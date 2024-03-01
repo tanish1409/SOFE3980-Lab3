@@ -1,0 +1,18 @@
+2024-02-29 22:48:42.956 [info] 
+
+
+
+
+2024-02-29 22:48:42.956 [info] Extension host agent started.
+2024-02-29 22:48:42.980 [info] Started initializing default profile extensions in extensions installation folder. file:///home/loginemail122333/.codeoss/extensions
+2024-02-29 22:48:43.029 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/loginemail122333/.codeoss/extensions
+2024-02-29 22:48:45.063 [info] [127.0.0.1][14e03c25][ManagementConnection] New connection established.
+2024-02-29 22:48:45.256 [info] [127.0.0.1][2ef2ecd4][ExtensionHostConnection] New connection established.
+2024-02-29 22:48:47.661 [info] [127.0.0.1][2ef2ecd4][ExtensionHostConnection] <1145> Launched Extension Host Process.
+2024-02-29 22:49:19.775 [info] [127.0.0.1][14e03c25][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-02-29 22:49:19.856 [info] [127.0.0.1][2ef2ecd4][ExtensionHostConnection] <1145> Extension Host Process exited with code: 0, signal: null.
+2024-02-29 23:08:54.030 [info] [127.0.0.1][7d0f2030][ManagementConnection] New connection established.
+2024-02-29 23:08:54.080 [info] [127.0.0.1][6c2fb645][ExtensionHostConnection] New connection established.
+2024-02-29 23:08:54.089 [info] [127.0.0.1][6c2fb645][ExtensionHostConnection] <1755> Launched Extension Host Process.
+2024-02-29 23:08:59.452 [info] [127.0.0.1][7d0f2030][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-02-29 23:08:59.865 [info] [127.0.0.1][6c2fb645][ExtensionHostConnection] <1755> Extension Host Process exited with code: 0, signal: null.

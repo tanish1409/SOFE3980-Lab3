@@ -1,0 +1,2 @@
+INDEX VERSION 1.134+/home/loginemail122333/.codeoss/data/User/workspaceStorage/2a760e76-1/redhat.java/jdt_ws/.metadata/.plugins/org.eclipse.jdt.core
+2949097923.index

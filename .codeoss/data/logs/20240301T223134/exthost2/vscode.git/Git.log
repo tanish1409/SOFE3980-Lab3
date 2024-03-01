@@ -1,0 +1,106 @@
+2024-03-01 22:33:05.185 [info] Log level: Info
+2024-03-01 22:33:05.186 [info] Validating found git in: "git"
+2024-03-01 22:33:05.186 [info] Using git "2.30.2" from "git"
+2024-03-01 22:33:05.221 [info] > git rev-parse --show-toplevel [45ms]
+2024-03-01 22:33:05.250 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2024-03-01 22:33:05.297 [info] Open repository: /home/loginemail122333/SOFE3980U-Lab3
+2024-03-01 22:33:05.352 [info] > git config --get commit.template [16ms]
+2024-03-01 22:33:05.369 [info] > git rev-parse --show-toplevel [20ms]
+2024-03-01 22:33:05.395 [info] > git rev-parse --show-toplevel [11ms]
+2024-03-01 22:33:05.409 [info] > git rev-parse --show-toplevel [4ms]
+2024-03-01 22:33:05.424 [info] > git rev-parse --show-toplevel [3ms]
+2024-03-01 22:33:05.496 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [130ms]
+2024-03-01 22:33:05.989 [info] > git status -z -uall [466ms]
+2024-03-01 22:33:05.991 [info] > git check-ignore -v -z --stdin [19ms]
+2024-03-01 22:33:06.057 [info] > git config --get commit.template [21ms]
+2024-03-01 22:33:06.076 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-03-01 22:33:07.058 [info] > git status -z -uall [970ms]
+2024-03-01 22:33:07.058 [info] > git show --textconv :MySQL/mysql-service.yaml [836ms]
+2024-03-01 22:33:07.069 [info] > git ls-files --stage -- /home/loginemail122333/SOFE3980U-Lab3/MySQL/mysql-service.yaml [831ms]
+2024-03-01 22:33:07.124 [info] > git cat-file -s 4f86581f19d6f96bcac2f60a18f594a6ac84656a [39ms]
+2024-03-01 22:33:09.966 [info] > git check-ignore -v -z --stdin [3ms]
+2024-03-01 22:33:14.573 [info] > git check-ignore -v -z --stdin [11ms]
+2024-03-01 22:33:25.987 [info] > git config --get commit.template [80ms]
+2024-03-01 22:33:25.997 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2024-03-01 22:33:26.110 [info] > git status -z -uall [43ms]
+2024-03-01 22:39:30.551 [info] > git config --get commit.template [19ms]
+2024-03-01 22:39:30.551 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-03-01 22:39:30.590 [info] > git status -z -uall [22ms]
+2024-03-01 22:39:30.599 [info] > git ls-files --stage -- /home/loginemail122333/SOFE3980U-Lab3/MySQL/mysql-service.yaml [12ms]
+2024-03-01 22:39:30.620 [info] > git cat-file -s 4f86581f19d6f96bcac2f60a18f594a6ac84656a [3ms]
+2024-03-01 22:39:30.798 [info] > git show --textconv :MySQL/mysql-service.yaml [3ms]
+2024-03-01 22:39:33.856 [info] > git log --oneline --cherry main...main@{upstream} -- [3ms]
+2024-03-01 22:39:34.072 [info] > git pull --tags origin main [199ms]
+2024-03-01 22:39:34.072 [info] hint: Pulling without specifying how to reconcile divergent branches is
+hint: discouraged. You can squelch this message by running one of the following
+hint: commands sometime before your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: couldn't find remote ref main
+2024-03-01 22:39:34.106 [info] > git config --get commit.template [17ms]
+2024-03-01 22:39:34.108 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-03-01 22:39:34.130 [info] > git status -z -uall [5ms]
+2024-03-01 22:39:35.174 [info] > git ls-files --stage -- /home/loginemail122333/SOFE3980U-Lab3/MySQL/mysql-service.yaml [2ms]
+2024-03-01 22:39:35.193 [info] > git cat-file -s 4f86581f19d6f96bcac2f60a18f594a6ac84656a [2ms]
+2024-03-01 22:39:35.256 [info] > git show --textconv :MySQL/mysql-service.yaml [3ms]
+2024-03-01 22:39:35.618 [info] > git config --get commit.template [3ms]
+2024-03-01 22:39:35.638 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-03-01 22:39:35.658 [info] > git status -z -uall [4ms]
+2024-03-01 22:41:23.497 [info] > git log --oneline --cherry main...main@{upstream} -- [3ms]
+2024-03-01 22:41:23.720 [info] > git pull --tags origin main [205ms]
+2024-03-01 22:41:23.720 [info] hint: Pulling without specifying how to reconcile divergent branches is
+hint: discouraged. You can squelch this message by running one of the following
+hint: commands sometime before your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: couldn't find remote ref main
+2024-03-01 22:41:23.756 [info] > git config --get commit.template [17ms]
+2024-03-01 22:41:23.758 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-03-01 22:41:23.778 [info] > git status -z -uall [4ms]
+2024-03-01 22:41:24.835 [info] > git ls-files --stage -- /home/loginemail122333/SOFE3980U-Lab3/MySQL/mysql-service.yaml [3ms]
+2024-03-01 22:41:24.853 [info] > git cat-file -s 4f86581f19d6f96bcac2f60a18f594a6ac84656a [2ms]
+2024-03-01 22:41:24.917 [info] > git show --textconv :MySQL/mysql-service.yaml [3ms]
+2024-03-01 22:42:56.284 [info] > git config --get commit.template [17ms]
+2024-03-01 22:42:56.286 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-03-01 22:42:56.323 [info] > git status -z -uall [20ms]
+2024-03-01 22:42:56.326 [info] > git ls-files --stage -- /home/loginemail122333/SOFE3980U-Lab3/MySQL/mysql-service.yaml [6ms]
+2024-03-01 22:42:56.349 [info] > git cat-file -s 4f86581f19d6f96bcac2f60a18f594a6ac84656a [2ms]
+2024-03-01 22:42:56.446 [info] > git show --textconv :MySQL/mysql-service.yaml [13ms]
+2024-03-01 22:42:59.143 [info] > git log --oneline --cherry main...main@{upstream} -- [3ms]
+2024-03-01 22:42:59.354 [info] > git pull --tags origin main [194ms]
+2024-03-01 22:42:59.354 [info] hint: Pulling without specifying how to reconcile divergent branches is
+hint: discouraged. You can squelch this message by running one of the following
+hint: commands sometime before your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: couldn't find remote ref main
+2024-03-01 22:42:59.393 [info] > git config --get commit.template [19ms]
+2024-03-01 22:42:59.395 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-03-01 22:42:59.418 [info] > git status -z -uall [6ms]
+2024-03-01 22:43:00.497 [info] > git ls-files --stage -- /home/loginemail122333/SOFE3980U-Lab3/MySQL/mysql-service.yaml [2ms]
+2024-03-01 22:43:00.516 [info] > git cat-file -s 4f86581f19d6f96bcac2f60a18f594a6ac84656a [4ms]
+2024-03-01 22:43:00.579 [info] > git show --textconv :MySQL/mysql-service.yaml [4ms]
+2024-03-01 22:43:01.360 [info] > git config --get commit.template [17ms]
+2024-03-01 22:43:01.362 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-03-01 22:43:01.385 [info] > git status -z -uall [5ms]
